@@ -1,0 +1,357 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+#banner{
+    background-color:#F1F1F1;
+    height:100vh;
+    padding-top:100px;
+}
+#banner svg{
+    
+ 
+  margin:0 auto;
+  display:block;
+  padding:4px;
+
+  
+  
+}
+
+#login_box{
+    background-color:white;
+    height:320px;
+    width:450px;
+margin:auto;
+margin-top:45px;
+}
+#login_box form{
+    font-size:18px;
+    opacity:0.9;
+    color:#91979D;
+    font-weight:bold;
+    padding:35px;
+}
+#login_box #options{
+    display:flex;
+    justify-content: space-between;
+}
+#login_box #options button{
+    background-color:#0F85BA;
+    color:white;
+}
+#login_box #options input[type=checkbox]{
+   
+    /* width:30px;
+    height:17px; */
+    transform : scale(1.7);
+    margin-left:5px;
+    margin-right:10px;
+
+}
+#content{
+    opacity:0.9;
+    color:#91979D;
+    font-weight:bold;
+   margin-left:40%;
+   margin-top:20px;
+   font-size:17px;
+}
+#content a{
+    text-decoration: none;
+    color:#91979D;
+}
+@media screen and (max-width: 1204px){
+    #banner{
+        background-color:#F1F1F1;
+        height:120vh;
+        padding-top:100px;
+    }
+    #content{
+        opacity:0.9;
+        color:#91979D;
+        font-weight:bold;
+       margin-left:30%;
+       margin-top:20px;
+       font-size:17px;
+    }
+}
+@media screen and (max-width: 1024px){
+    #banner{
+        background-color:#F1F1F1;
+        height:120vh;
+        padding-top:100px;
+    }
+    #content{
+        opacity:0.9;
+        color:#91979D;
+        font-weight:bold;
+       margin-left:30%;
+       margin-top:20px;
+       font-size:17px;
+    }
+}
+@media screen and (max-width: 990px){
+    #banner{
+        background-color:#F1F1F1;
+        height:120vh;
+        padding-top:100px;
+    }
+    #content{
+        opacity:0.9;
+        color:#91979D;
+        font-weight:bold;
+       margin-left:28%;
+       margin-top:20px;
+       font-size:17px;
+    }
+}
+
+@media screen and (max-width: 762px){
+    #banner svg{
+        height:122px;
+        width:122px;
+       }
+    #content{
+        opacity:0.9;
+        color:#91979D;
+        font-weight:bold;
+       margin-left:29%;
+       margin-top:20px;
+       font-size:15px;
+    }
+    #banner{
+        margin:0px;
+        background-color:#F1F1F1;
+        height:110vh;
+        padding-top:60px;
+    }
+    #login_box{
+        background-color:white;
+        height:290px;
+        width:350px;
+    margin:auto;
+    margin-top:45px;
+    }
+    #login_box #options button{
+        background-color:#0F85BA;
+        color:white;
+        height:23px;
+        padding:0px 13px;
+        font-size:15px;
+    }
+    #login_box form{
+        font-size:15px;
+        opacity:0.9;
+        color:#91979D;
+        font-weight:bold;
+        padding:35px;
+    }
+}
+@media screen and (max-width: 672px){
+    #banner svg{
+        height:122px;
+        width:122px;
+       }
+    #banner{
+        margin:0px;
+        background-color:#F1F1F1;
+        height:100vh;
+        padding-top:60px;
+    }
+    #content{
+        opacity:0.9;
+        color:#91979D;
+        font-weight:bold;
+       margin-left:25%;
+       margin-top:20px;
+       font-size:12px;
+    }
+    #login_box{
+        background-color:white;
+        height:290px;
+        width:350px;
+    margin:auto;
+    margin-top:45px;
+    }
+    #login_box #options button{
+        background-color:#0F85BA;
+        color:white;
+        height:23px;
+        padding:0px 10px;
+        font-size:15px;
+    }
+    #login_box form{
+        font-size:12px;
+        opacity:0.9;
+        color:#91979D;
+        font-weight:bold;
+        padding:35px;
+    }
+}
+@media screen and (max-width: 572px){
+    #banner svg{
+        height:122px;
+        width:122px;
+       }
+    #banner{
+        margin:0px;
+        background-color:#F1F1F1;
+        height:100vh;
+        padding-top:60px;
+    }
+    #content{
+        opacity:0.9;
+        color:#91979D;
+        font-weight:bold;
+       margin-left:21%;
+       margin-top:20px;
+       font-size:12px;
+    }
+    #login_box{
+        background-color:white;
+        height:290px;
+        width:350px;
+    margin:auto;
+    margin-top:45px;
+    }
+    #login_box #options button{
+        background-color:#0F85BA;
+        color:white;
+        height:23px;
+        padding:0px 10px;
+        font-size:15px;
+    }
+    #login_box form{
+        font-size:12px;
+        opacity:0.9;
+        color:#91979D;
+        font-weight:bold;
+        padding:35px;
+    }
+}
+@media screen and (max-width: 460px){
+    #banner svg{
+        height:122px;
+        width:122px;
+       }
+    #banner{
+        margin:0px;
+        background-color:#F1F1F1;
+        height:110vh;
+        padding-top:60px;
+    }
+    #login_box{
+        background-color:white;
+        height:290px;
+        width:300px;
+    margin:auto;
+    margin-top:45px;
+    }
+    #login_box #options button{
+        background-color:#0F85BA;
+        color:white;
+        height:23px;
+        padding:0px 5px;
+        font-size:14px;
+    }
+    #login_box form{
+        font-size:12px;
+        opacity:0.9;
+        color:#91979D;
+        font-weight:bold;
+        padding:35px;
+    }
+}
+@media screen and (max-width: 383px){
+    #banner svg{
+        height:122px;
+        width:122px;
+       }
+    #banner svg{
+     height:100px;
+     width:100px;
+    }
+    #banner{
+        margin:0px;
+        background-color:#F1F1F1;
+        height:100vh;
+        padding-top:40px;
+    }
+    #login_box #options button{
+        background-color:#0F85BA;
+        color:white;
+        height:23px;
+        padding:0px 5px;
+        font-size:14px;
+    }
+    #login_box form{
+        font-size:12px;
+        opacity:0.9;
+        color:#91979D;
+        font-weight:bold;
+        padding:35px;
+    }
+    #content{
+        opacity:0.9;
+        color:#91979D;
+        font-weight:bold;
+       margin-left:15%;
+       margin-top:20px;
+       font-size:14px;
+    }
+    #login_box{
+        background-color:white;
+        height:300px;
+        width:280px;
+        /* margin-left:0px; */
+    
+    margin-top:45px;
+    }
+}
+@media screen and (max-width: 333px){
+    #banner svg{
+        height:112px;
+        width:112px;
+       }
+    #banner{
+        margin:0px;
+        background-color:#F1F1F1;
+        height:100vh;
+        padding-top:40px;
+    }
+    #login_box #options button{
+        background-color:#0F85BA;
+        color:white;
+        height:23px;
+        padding:0px 5px;
+        font-size:14px;
+    }
+    #login_box form{
+        font-size:10px;
+        opacity:0.9;
+        color:#91979D;
+        font-weight:bold;
+        padding:20px;
+    }
+    #content{
+        opacity:0.9;
+        color:#91979D;
+        font-weight:bold;
+       margin-left:17%;
+       margin-top:20px;
+       font-size:10px;
+    }
+    #login_box{
+        background-color:white;
+        height:250px;
+        width:230px;
+        margin:auto;
+    
+    margin-top:45px;
+    }
+}
